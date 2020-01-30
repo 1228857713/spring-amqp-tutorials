@@ -13,6 +13,7 @@
 		<module>spring-rabbit-confirms-returns</module>
 		<module>spring-rabbit-json</module>
 		<module>spring-rabbit-global-errorhandler</module>
+		<module>rabbitmq-tutorials</module>
 	</modules>
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
