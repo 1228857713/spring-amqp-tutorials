@@ -13,6 +13,7 @@ import java.util.function.BooleanSupplier;
 
 public class PublisherConfirms {
 
+    // test
     static final int MESSAGE_COUNT = 50_000;
 
     static Connection createConnection() throws Exception {
