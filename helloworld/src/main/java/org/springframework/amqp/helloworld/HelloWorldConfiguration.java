@@ -16,9 +16,12 @@ public class HelloWorldConfiguration {
 
 	@Bean
 	public ConnectionFactory connectionFactory() {
-		CachingConnectionFactory connectionFactory = new CachingConnectionFactory("localhost");
-		connectionFactory.setUsername("guest");
-		connectionFactory.setPassword("guest");
+		CachingConnectionFactory connectionFactory = new CachingConnectionFactory();
+		connectionFactory.setHost("127.0.0.1");
+		connectionFactory.setPort(5672);
+		connectionFactory.setUsername("admin");
+		connectionFactory.setPassword("admin");
+		connectionFactory.setVirtualHost("/");
 		return connectionFactory;
 	}
 
